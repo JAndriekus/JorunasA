@@ -1,6 +1,6 @@
 baseURL: "https://jorunasa.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Jorunas Andriekus | Programmer"
 theme: hugo-profile
 
 # Multilingual configuration
@@ -12,18 +12,18 @@ languages:
     languageName: "English"
     weight: 1
     contentDir: "content"
-    menu:
-      main:
-        - identifier: blog
-          name: Blog
-          title: Blog posts
-          url: /blogs
-          weight: 1
-        - identifier: gallery
-          name: Gallery
-          title: Image gallery
-          url: /gallery
-          weight: 2
+  #  menu:
+  #    main:
+   #     - identifier: blog
+  #        name: Blog
+  #        title: Blog posts
+  #        url: /blogs
+ #         weight: 1
+  #      - identifier: gallery
+ #         name: Gallery
+#          title: Image gallery
+ #         url: /gallery
+#          weight: 2
 
 
 outputs:
@@ -52,12 +52,12 @@ markup:
       unsafe: true
 
 #Menus:
-  main:
-    - identifier: gallery
-      name: Gallery
-      title: Gallery
-      url: /gallery
-      weight: 2
+  #main:
+   # - identifier: gallery
+   #   name: Gallery
+   #   title: Gallery
+   #   url: /gallery
+    #  weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -151,11 +151,11 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Jorunas Andriekus."
-    subtitle: "and I program games"
-    content: "A passionate game programmer knowledgeable in C++ and experience in using Unreal Engine 5 and Godot."
-    image: /images/self.png
+    intro: "Hey! My name is"
+    title: "Jorunas Andriekus,"
+    subtitle: "and I make games."
+    content: "I am a passionate game programmer knowledgeable in C++ with experience in Unreal Engine 5 and Godot."
+    image: self.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -169,7 +169,7 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/JAndriekus
-        - icon: fab fa-x-twitter
+        - icon: fab fa-linkedin-in
           url: https://example.com
       customIcons:
         - icon: /fav.png
@@ -179,7 +179,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "me.png"
     # I can embed links like the following: [example org.](https://example.com) - markdown like obsidian
     content: |-
       About me paragraph 1
@@ -187,7 +187,7 @@ params:
       About me paragraph 2
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are the skills that I am proficient in:"
       items:
         - "C++"
         - "Godot"

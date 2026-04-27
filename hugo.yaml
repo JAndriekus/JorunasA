@@ -179,7 +179,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "me.png"
+    image: "me2.png"
     # I can embed links like the following: [example org.](https://example.com) - markdown like obsidian
     content: |-
       My name is Jorunas, and I am a Lithuanian programmer with a deep-seated passion for game development.
@@ -187,7 +187,7 @@ params:
       In my spare time, I enjoy playing games such as RimWorld or League of Legends, hiking, and reading. I also direct a consistent weekly game of Draw Steel on the side!
     skills:
       enable: true
-      title: "Here are the skills that I am proficient in:"
+      title: "I am proficient in:"
       items:
         - "C++"
         - "Godot"
@@ -252,7 +252,6 @@ params:
           Extracurricular Activities
             - Course Representative for 3 years.
             - Ran a multi-year spanning Advanced Dungeons & Dragons 2nd Edition campaign for my classmates
-            - 
         featuredLink:
           enable: false
           name: "My academic record"
@@ -288,10 +287,10 @@ params:
     items:
       - title: Kagemusha
         content: A first-person ninja stealth game made as a group project during my time at the University of East London.
-        image: /images/projects/profile.png
+        image: /projects/THLogo.png
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: https://github.com/JAndriekus
         badges:
           - "Unreal Engine 5"
           - "C++"
@@ -304,7 +303,7 @@ params:
 
       - title: UKIE Student Game Jam
         content: A Vampire Survivors-like game centred around the theme of "Symmetry". 
-        image: /images/projects/converter.jpg
+        image: /projects/SymmetrySurvivors.png
         featured:
           name: Itch.io
           link: https://geratt.itch.io/symmetry-survivors

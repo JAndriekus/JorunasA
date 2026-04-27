@@ -1,4 +1,4 @@
-baseURL: "https://jorunasa.netlify.app"
+baseURL: "jorunasa.dev"
 languageCode: "en-us"
 title: "Jorunas Andriekus | Programmer"
 theme: hugo-profile
@@ -155,7 +155,7 @@ params:
     title: "Jorunas Andriekus,"
     subtitle: "and I make games."
     content: "I am a passionate game programmer knowledgeable in C++ with experience in Unreal Engine 5 and Godot."
-    image: self.png
+    image: Tattoo.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -170,10 +170,10 @@ params:
         - icon: fab fa-github
           url: https://github.com/JAndriekus
         - icon: fab fa-linkedin-in
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://www.linkedin.com/in/jorunas-andriekus
+      #customIcons:
+      #  - icon: /fav.png
+      #    url: "https://example.com"
 
   # About
   about:
@@ -182,9 +182,9 @@ params:
     image: "me.png"
     # I can embed links like the following: [example org.](https://example.com) - markdown like obsidian
     content: |-
-      About me paragraph 1
+      My name is Jorunas, and I am a Lithuanian programmer with a deep-seated passion for game development.
 
-      About me paragraph 2
+      In my spare time, I enjoy playing games such as RimWorld or League of Legends, hiking, and reading. I also direct a consistent weekly game of Draw Steel on the side!
     skills:
       enable: true
       title: "Here are the skills that I am proficient in:"
@@ -192,14 +192,12 @@ params:
         - "C++"
         - "Godot"
         - "Unreal Engine 5"
-        - "Skill"
-        - "Skill"
-        - "Skill"
+        - "Agile Methodology"
 
 
   # Experience
   experience:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - company: "Facebook"
@@ -223,7 +221,7 @@ params:
                   url: "https://example.com"
                   tooltip: Example tooltip content
           - name: "Software Developer"
-            date: "Jan 2022 - Dec 2023"
+            date: "Aug 2023 - Dec 2023"
             content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
 
       - company: "Google"
@@ -245,16 +243,18 @@ params:
           name: "University of East London"
           url: "https://www.uel.ac.uk"
         date: "2023 - present"
+        #           - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com You may insert a link like in obsidian
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          I am working on a dissertation which is about the topic of Procedural Environment Generation.
+
+          During the course, the modules taught concepts such as OOP, Design Patterns, and SOLID principles. The course placed a lot of focus on group work and collaboration with game designers and artists.
 
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - Course Representative for 3 years.
+            - Ran a multi-year spanning Advanced Dungeons & Dragons 2nd Edition campaign for my classmates
+            - 
         featuredLink:
-          enable: true
+          enable: false
           name: "My academic record"
           url: "https://example.com"
 
@@ -296,48 +296,44 @@ params:
           - "Unreal Engine 5"
           - "C++"
           - "University"
-        links:
-          - icon: fa fa-envelope
-            url: https://example.com
-          - icon: fab fa-github
-            url: https://example.com
-          - icon: fab fa-twitter
-            url: https://example.com
+        # links:
+        #   - icon: fab fa-steam
+        #     url: https://example.com
+        #   - icon: fab fa-github
+        #     url: https://example.com
 
-      - title: Project 2
-        content: Description.
+      - title: UKIE Student Game Jam
+        content: A Vampire Survivors-like game centred around the theme of "Symmetry". 
         image: /images/projects/converter.jpg
         featured:
-          name: Demo
-          link: https://example.com
+          name: Itch.io
+          link: https://geratt.itch.io/symmetry-survivors
         badges:
-          - "Skill Used"
-          - "Skill Used"
-        links:
-          - icon: fab fa-github
-            url: https://example.com
+          - "Godot"
+          - "GDScript"
 
-      - title: Project 3
-        content: Description.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo Link
-          link: https://example.com
-        badges:
-          - "Skill Used"
-          - "Skill Used"
-          - "Skill Used"
-        links:
-          - icon: fab fa-github
-            url: https://example.com
+
+      #- title: WIP
+      #  content: Description.
+      #  image: /images/projects/profile2.jpg
+      #  featured:
+      #    name: Demo Link
+      #    link: https://example.com
+      #  badges:
+      #    - "Skill Used"
+      #    - "Skill Used"
+      #    - "Skill Used"
+      #  links:
+      #    - icon: fab fa-github
+      #      url: https://example.com
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: Have any questions or inquiries? Leave me a message and I will get back to you as soon as possible.
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:jorunasa@outlook.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -353,11 +349,9 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/JAndriekus
+      linkedin: https://www.linkedin.com/in/jorunas-andriekus
+
 
   # List pages like blogs and posts
   listPages:

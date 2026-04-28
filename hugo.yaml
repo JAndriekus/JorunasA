@@ -179,7 +179,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "me2.png"
+    image: "self.jpg"
     # I can embed links like the following: [example org.](https://example.com) - markdown like obsidian
     content: |-
       My name is Jorunas, and I am a Lithuanian programmer with a deep-seated passion for game development.

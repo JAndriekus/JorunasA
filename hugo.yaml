@@ -287,10 +287,10 @@ params:
     items:
       - title: Kagemusha
         content: A first-person ninja stealth game made as a group project during my time at the University of East London.
-        image: /projects/THLogo.png
+        image: /projects/Kagemusha.png
         featured:
-          name: Demo
-          link: https://github.com/JAndriekus
+          name: Itch.io
+          link: https://geratt.itch.io/kagemusha-public-demo
         badges:
           - "Unreal Engine 5"
           - "C++"
@@ -310,6 +310,17 @@ params:
         badges:
           - "Godot"
           - "GDScript"
+          - "University"
+      - title: Portfolio UI Demo
+        content:
+        image: /projects/KagemushaUI.png
+        featured:
+          name: github
+          link: https://github.com/JAndriekus
+        badges:
+          - "Unreal Engine 5"
+          - "UI"
+          - "University"
 
 
       #- title: WIP

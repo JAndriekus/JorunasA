@@ -310,13 +310,14 @@ params:
         badges:
           - "Godot"
           - "GDScript"
-          - "University"
+          - "UKIE"
+          - "Game Jam"
       - title: Portfolio UI Demo
-        content:
+        content: A migrated version of Kagemusha used for testing and showcasing UI and inventory features.
         image: /projects/KagemushaUI.png
         featured:
-          name: github
-          link: https://github.com/JAndriekus
+          name: GitHub
+          link: https://github.com/JAndriekus/KagemushaUI
         badges:
           - "Unreal Engine 5"
           - "UI"
